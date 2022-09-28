@@ -1,0 +1,29 @@
+# conda activate ./py38
+
+# Library
+import pandas as pd
+import numpy as np
+import seaborn as sns
+from matplotlib import pyplot as plt
+import glob
+import torch
+
+import os, re
+
+import matplotlib.pyplot as plt
+from matplotlib import rc
+import seaborn as sns
+
+# Font
+rc('font', family='AppleGothic')
+plt.rcParams['axes.unicode_minus'] = False
+## Test
+plt.figure(figsize=(2,2))
+plt.text(0.3, 0.3, '한글 폰트 테스트', size=15)
+plt.show()
+
+# Print width
+# np.set_printoption(linewidth=320)
+pd.set_option('display.width', 150)
+pd.options.display.max_columns = None
+# pd.set_option('display.max_columns',10)
