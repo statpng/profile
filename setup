@@ -3,6 +3,10 @@
 
 # conda activate ./py38
 
+
+# Install
+# !pip install transformers
+
 # Library
 import pandas as pd
 import numpy as np
@@ -11,19 +15,56 @@ from matplotlib import pyplot as plt
 import matplotlib.pyplot as plt
 from matplotlib import rc
 import torch
-import tqdm
-# import os, re
+import tqdm  ## progress bar
+import os
+# import re
+
 
 # Font
-rc('font', family='AppleGothic')
+## A. In Colab
+### (1) Install Font
+# !apt-get update -qq
+# !apt-get install fonts-nanum* -qq
+### (2) Restart Runtime
+### (3) Set Hangul-Font
+# rc('font', family='NanumBarunGothic')
+## B. In MacBook
+### (1) Set Hangul-Font
+# rc('font', family='AppleGothic')
+## Minus
 plt.rcParams['axes.unicode_minus'] = False
 ## Test
 plt.figure(figsize=(2,2))
 plt.text(0.3, 0.3, '한글 폰트 테스트', size=15)
 plt.show()
 
-# Print width
+
+# Print Width
 # np.set_printoption(linewidth=320)
 pd.set_option('display.width', 150)
 pd.options.display.max_columns = None
 # pd.set_option('display.max_columns',10)
+
+
+# Torch CUDA Error Printing
+# os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+
+# Google Drive
+from google.colab import auth, drive
+drive.mount("/content/drive/")
+os.chdir("/content/drive/MyDrive/Colab/Dacon4")
+os.listdir("./")
+
+
+# train = pd.read_csv("./train.csv")
+# test = pd.read_csv("./test.csv")
+
+# from sklearn.model_selection import train_test_split
+# X_train, X_val, y_train, y_val = train_test_split(train.index.values, train["label"].values, 
+                                                  test_size=0.15, random_state=42, stratify=train["label"].values)
+# train['data_type'] = ['not_set']*train.shape[0]
+# train.loc[X_train, 'data_type'] = 'train'
+# train.loc[X_val, 'data_type'] = 'val'
+# train.groupby(["label", "data_type"]).count()
