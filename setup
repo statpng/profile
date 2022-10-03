@@ -24,6 +24,7 @@ import os
 # Font
 ## A. In Colab
 ### (1) Install Font
+# %%capture
 # !apt-get update -qq
 # !apt-get install fonts-nanum* -qq
 ### (2) Restart Runtime
