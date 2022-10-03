@@ -1,3 +1,44 @@
+%%capture
+# !apt-get update -qq
+# !apt-get install fonts-nanum* -qq
+
+
+from matplotlib import pyplot as plt
+import matplotlib.font_manager as fm  
+plt.rc("font", family="NanumBarunGothic")
+fm._rebuild()
+
+
+# restart runtime
+
+
+from matplotlib import pyplot as plt
+import matplotlib.font_manager as fm  
+plt.rc("font", family="NanumBarunGothic")
+fm._rebuild()
+
+
+from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
+from matplotlib import rc
+plt.rcParams['axes.unicode_minus'] = False
+## Test
+plt.figure(figsize=(2,2))
+plt.text(0.3, 0.3, '한글 폰트 테스트', size=15)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
 # pip freeze >> requirements.txt
 # pip install -r requirements.txt
 
@@ -22,20 +63,10 @@ import os
 
 
 # Font
-## A. In Colab
-### (1) Install Font
-# %%capture
-# !apt-get update -qq
-# !apt-get install fonts-nanum* -qq
-### (2) Restart Runtime
-### (3) Set Hangul-Font
-# rc('font', family='NanumBarunGothic')
-## B. In MacBook
-### (1) Set Hangul-Font
-# rc('font', family='AppleGothic')
-## Minus
+## In MacBook
+import matplotlib.pyplot as plt 
+plt.rc('font', family='AppleGothic')
 plt.rcParams['axes.unicode_minus'] = False
-## Test
 plt.figure(figsize=(2,2))
 plt.text(0.3, 0.3, '한글 폰트 테스트', size=15)
 plt.show()
@@ -43,8 +74,8 @@ plt.show()
 
 # Print Width
 # np.set_printoption(linewidth=320)
-pd.set_option('display.width', 150)
-pd.options.display.max_columns = None
+# pd.set_option('display.width', 150)
+# pd.options.display.max_columns = None
 # pd.set_option('display.max_columns',10)
 
 
