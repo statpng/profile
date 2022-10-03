@@ -93,11 +93,16 @@ os.chdir("/content/drive/MyDrive/Colab/Dacon4")
 os.listdir("./")
 
 
+
+
+
 # train = pd.read_csv("./train.csv")
 # test = pd.read_csv("./test.csv")
 
 # from sklearn.model_selection import train_test_split
-# X_train, X_val, y_train, y_val = train_test_split(train.index.values, train["label"].values, test_size=0.15, random_state=42, stratify=train["label"].values)
+# X_train, X_val, y_train, y_val = train_test_split(train.index.values, train["label"].values, 
+#                                                   test_size=0.15, random_state=42, 
+#                                                   stratify=train["label"].values)
 # train['data_type'] = ['not_set']*train.shape[0]
 # train.loc[X_train, 'data_type'] = 'train'
 # train.loc[X_val, 'data_type'] = 'val'
