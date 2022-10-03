@@ -8,14 +8,11 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 from matplotlib import pyplot as plt
-import glob
-import torch
-
-import os, re
-
 import matplotlib.pyplot as plt
 from matplotlib import rc
-import seaborn as sns
+import torch
+import tqdm
+# import os, re
 
 # Font
 rc('font', family='AppleGothic')
