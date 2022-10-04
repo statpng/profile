@@ -107,6 +107,8 @@ params = {
     'SEED': 41
 }
 
+import random
+
 def seed_everything(seed):
     random.seed(seed)
     os.environ['PYTHONHASHSEED'] = str(seed)
