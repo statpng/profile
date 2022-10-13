@@ -142,3 +142,12 @@ seed_everything(params['SEED'])  # Seed 고정
 # train.loc[X_train, 'data_type'] = 'train'
 # train.loc[X_val, 'data_type'] = 'val'
 # train.groupby(["label", "data_type"]).count()
+
+
+
+function ClickConnect(){
+  console.log("Connnect Clicked - Start"); 
+  document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click();
+  console.log("Connnect Clicked - End"); 
+};
+setInterval(ClickConnect, 60000)
