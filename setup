@@ -79,7 +79,9 @@ import os
 # pd.set_option('display.width', 150)
 # pd.options.display.max_columns = None
 # pd.set_option('display.max_columns',10)
-
+# with pd.option_context('display.max_rows', 5, 'display.max_columns', None): 
+#     display(my_df)
+    
 
 # Torch CUDA Error Printing
 # os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
