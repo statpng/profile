@@ -68,7 +68,7 @@ import matplotlib.pyplot as plt
 # from matplotlib import pyplot as plt
 from matplotlib import rc
 import torch
-import tqdm  ## progress bar
+from tqdm import tqdm  ## progress bar
 import os
 # import re
 
