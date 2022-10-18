@@ -35,12 +35,12 @@ plt.show()
 
 # Font
 ## In MacBook
-# import matplotlib.pyplot as plt 
+# import matplotlib.pyplot as plt
 # plt.rc('font', family='AppleGothic')
 # plt.rcParams['axes.unicode_minus'] = False
-# plt.figure(figsize=(2,2))
-# plt.text(0.3, 0.3, '한글 폰트 테스트', size=15)
-# plt.show()
+## plt.figure(figsize=(2,2))
+## plt.text(0.3, 0.3, '한글 폰트 테스트', size=15)
+## plt.show()
 
 
 
