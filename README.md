@@ -1,7 +1,7 @@
 # Competition
 
 
-| Title | Data Type | Metric | Date | Public Score | Private Score | Percent
+| Title | Data Type | Metric | Date | Public Score | Private Score | Top Percent |
 |---|---|---|---|---|---|
 | [시스템 품질 변화로 인한 사용자 불편 예지 AI 경진대회](https://dacon.io/competitions/official/235687/overview/description) | 정형 | 분류 (AUC) | 2021.01.06 ~ 2021.02.03 | Public: 0.82298 (125/418) | Private: 0.81992 (136/418) | Top 32% |
 | [청경채 성장 예측 AI 경진대회](https://dacon.io/competitions/official/235961/overview/description) | 정형 | 회귀 (RMSE) | 2022.08.17 ~ 2022.09.19 | Public: 17.64444 (19/171) | Private: 18.7495 (19/171) | Top 11% |
