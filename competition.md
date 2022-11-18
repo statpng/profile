@@ -20,4 +20,4 @@
 
 ### Non-linear feature
 - K-means with a large number of groups
-- Kernel PCA
+- Kernel PCA with radial kernel using different values of constant c
