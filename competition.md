@@ -9,3 +9,15 @@
 |  4  | [제주도 도로 교통량 예측 AI 경진대회](https://dacon.io/competitions/official/235985/overview/description) | 정형 | 회귀 (MAE) |  2022.10.03 ~ 2022.11.14 | Public: 3.3263 (133/715) | Private: 3.3715 (147/715) | Top 20% |
 
 
+
+# Feature
+
+### Linear
+- PCA
+- Sparse PCA
+- Robust PCA
+
+
+### Non-linear feature
+- K-means with a large number of groups
+- Kernel PCA
