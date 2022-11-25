@@ -1,0 +1,1 @@
+conda install pandas numpy sklearn xgboost lightgbm catboost matplotlib seaborn optuna
