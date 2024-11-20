@@ -108,3 +108,5 @@
 \newcommand{\bzero}{\mbox{\boldmath {$0$}}}
 \newcommand{\bone}{\mbox{\boldmath {$1$}}}
 
+\newcommand{\E}{\operatorname{E}}
+\newcommand{\Var}{\operatorname{Var}}
