@@ -110,3 +110,4 @@
 
 \newcommand{\E}{\operatorname{E}}
 \newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
