@@ -1,15 +1,27 @@
-#MathOutput {
+/* ==UserStyle==
+@name           ?
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+
+
+    #MathOutput {
     margin-top: 5px !important;
-    font-size: 20px !important;
-    width: 878px !important;
+    margin-right: 30px !important;
+    font-size: 35px !important;
+    width: 2878px !important;
     height: 1000px !important;
     border: 0px solid #999999;
     text-align: left;
 }
 #ForLatext {
-    margin-top: 30px;
-    width: 1578px !important;
-    height: 1800px !important;
+    margin-top: 30px !important;
+    margin-right: 30px !important;
+    width: 2878px !important;
+    height: 3000px !important;
     overflow: auto;
 }
 
@@ -36,7 +48,6 @@ body {
 }
 
 #container {
-    border: 1px solid #999999;
     padding: 0px;
     margin: 0px auto;
     width: 1000px !important;
@@ -57,7 +68,6 @@ body {
 
 .SingleButton {
     cursor: pointer;
-    display: inline-block;
     text-decoration: underline;
     margin-left: 15px;
     display: none !important;
@@ -68,7 +78,7 @@ body {
     border-width: 0;
     padding: 5px 5px;
     background: none;
-    font-size: -23px;
+    font-size: 0px;
     min-height: 468px;
 }
 
