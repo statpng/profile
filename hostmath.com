@@ -12,7 +12,7 @@
     margin-top: 5px !important;
     margin-right: 30px !important;
     font-size: 35px !important;
-    width: 2878px !important;
+    width: 878px !important;
     height: 1000px !important;
     border: 0px solid #999999;
     text-align: left;
@@ -20,7 +20,7 @@
 #ForLatext {
     margin-top: 30px !important;
     margin-right: 30px !important;
-    width: 2878px !important;
+    width: 1878px !important;
     height: 3000px !important;
     overflow: auto;
 }
@@ -51,7 +51,7 @@ body {
     padding: 0px;
     margin: 0px auto;
     width: 1000px !important;
-    height: 2000px !important;
+    height: 1000px !important;
     min-height: 100%;
     color: #333333;
     background-color: #FFFFFF;
