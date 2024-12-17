@@ -1,7 +1,3 @@
-# Profile
-
-
-
 \newcommand{\ba}{  \mathbf{a} }
 \newcommand{\bb}{  \mathbf{b} }
 \newcommand{\bc}{  \mathbf{c} }
