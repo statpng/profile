@@ -13,7 +13,9 @@
 
 ## 외부 (유료/무료) 프로그램
 - Snap: “Cmd+Shift+숫자”로 Dock에 있는 프로그램 실행할 수 있음.
-- (유료: Magnet) / (무료: rectangle) / (기본앱): “Ctrl+Opt+좌/우” 등으로 화면분할 가능 (화면왼쪽 크롬, 오른쪽 파워포인트 등).
+- (유료: Magnet) / (무료: rectangle): “Ctrl+Opt+좌/우” 등으로 화면분할 가능 (화면왼쪽 크롬, 오른쪽 파워포인트 등).
+  - 최근 기본단축키로 풀림
+  - ![image05](./images/Untitled-5.png)
 - Karabiner: 키맵핑을 바꿀 수 있음.
   - “Caps Lock” → “Return”, “우측 Cmd” → “한영전환”으로 사용할 수 있음 (맥OS 기본 설정에서 한영전환을 F18로 설정 후 카라비너에서 “우측 Cmd”를 누르면 “F18”을 입력되도록 설정함).
   - ![image01](./images/Untitled.webp)
