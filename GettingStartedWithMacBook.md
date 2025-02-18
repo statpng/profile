@@ -5,6 +5,7 @@
 - mathpix
 - TeamViewer
 - Dropbox
+- HashPhotos: 사진 정리 프로그램
 - 맥OS 기본 오피스 프로그램 (Keynote, Pages)
   - "Cmd + Opt + E"를 누르면 "Equation"창이 켜지면서 LaTeX 문법을 이용해서 수식을 입력할 수 있다.
   - 그러나, 윈도우PC와의 호환성이 좋지 않기 때문에 (PDF로만 공유 가능),
