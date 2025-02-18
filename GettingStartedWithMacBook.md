@@ -3,6 +3,7 @@
 - Magnet: “Ctrl+Opt+좌/우” 등으로 화면분할 가능 (화면왼쪽 크롬, 오른쪽 파워포인트 등).
 - Karabiner: 키맵핑을 바꿀 수 있음.
   - “Caps Lock” → “Return”, “우측 Cmd” → “한영전환”으로 사용할 수 있음 (맥OS 기본 설정에서 한영전환을 F18로 설정 후 카라비너에서 “우측 Cmd”를 누르면 “F18”을 입력되도록 설정함).
+  - ![image01](./images/Untitled.webp)
 - (optional) Automator (기본 앱): 반복작업을 위한 매크로 프로그램 (가속화 가능, 2배 빨리감기 등)
 
 # Shortcuts
@@ -19,7 +20,8 @@
 - “Cmd + Ctr + Opt + (-)” : 전체화면 캡쳐 ※
 - “Cmd + Ctr + Opt + 0” : 화면녹화 실행 ※ 
       ※ Keyboard에서 단축키를 아래와 같이 변경함
-
+  - ![image02](./images/Untitled-2.webp)
+  
 ## Finder
 - 
 - “Space”: 파일 미리보기 (PDF, PPT, 한글 등에서 파일 열지않고 간단한 내용만 확인할때 유용)
@@ -30,12 +32,13 @@
 - “Cmd + Ctrl + A”: Make alias (바로가기 생성)
 - “Cmd + Opt + C”: 파일 경로 복사
 - “Cmd + Shift + G”: 경로 이동
-- Finder 내 이동 관련 단축키
+- Finder 내 이동 관련 단축키 적극 사용 권장
     - Document: “Cmd+Shift+O”
     - Downloads: “Cmd+Opt+L”
     - Home: “Cmd+Shift+H”
     - iCloud: “Cmd+Shift+I”
     - Applications: “Cmd+Shift+A”
+    - ![image01](./images/Untitled-2.webp)
 
 ## Preview
 ### Shortcuts
@@ -56,7 +59,6 @@
 3. Preview 창에서 “Cmd + N”을 누르면 클립보드에 복사된 내용이 화면에 출력될거임
 4. 이를 파일로 저장하고 “페이지 삽입하기"에서 “Page from File”을 이용해서 다른 PDF에 삽입할 수 있음
 
-![image01](./images/Untitled.webp)
 
 
 ### 클립보드 >> PDF로 저장
