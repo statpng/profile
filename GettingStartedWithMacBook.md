@@ -56,6 +56,9 @@
 3. Preview 창에서 “Cmd + N”을 누르면 클립보드에 복사된 내용이 화면에 출력될거임
 4. 이를 파일로 저장하고 “페이지 삽입하기"에서 “Page from File”을 이용해서 다른 PDF에 삽입할 수 있음
 
+![image01](./images/Untitled.webp)
+
+
 ### 클립보드 >> PDF로 저장
 1. 클립보드에 화면캡쳐를 저장하고
 2. Preview를 켠 상태에서 “Cmd + N” 누르기 
