@@ -1,0 +1,63 @@
+%%%%% start - beamer %%%%%
+\setbeamersize{text margin left=8mm, text margin right=5mm}
+\renewcommand{\baselinestretch}{1.2}
+
+\usepackage{enumitem}
+\setlist[itemize,1]{label=$\circ$}  % all levels
+\setlist[itemize,2]{label=$\scalebox{.7}{$\blacktriangleright$}$}  % all levels
+\setlist[itemize,3]{label=\normalfont\bfseries \textendash}  % all levels
+\setlist[itemize,4]{label=\textasteriskcentered}  % all levels
+
+\setlist[enumerate,1]{label=(\arabic*)}  % all levels
+\setlist[enumerate,2]{label=(\alph*)}  % level 2 only
+\setlist[enumerate,3]{label=(\roman*)}  % level 2 only
+
+
+\newcommand{\bluesquare}{\textcolor{blue}{\scalebox{0.6}{$\blacksquare$}}}
+\newcommand{\redsquare}{\textcolor{red}{\scalebox{0.6}{$\blacksquare$}}}
+\newcommand{\bblacksquare}{\textcolor{black}{\scalebox{0.6}{$\blacksquare$}}}
+\newcommand{\bluetriangle}{\textcolor{blue}{\scalebox{1.0}{$\blacktriangleright$}}}
+\newcommand{\redtriangle}{\textcolor{red}{\scalebox{1.0}{$\blacktriangleright$}}}
+
+%\setbeamertemplate{itemize items}{\bluesquare}
+%\setbeamertemplate{itemize subitem}{\redsquare}
+%\setbeamertemplate{itemize subsubitem}{\bblacksquare}
+%\setbeamertemplate{enumerate items}{\bluesquare}
+
+\setbeamertemplate{items}[square]
+\setbeamertemplate{itemize items}[default]
+\setbeamertemplate{enumerate items}[default]
+
+\useinnertheme[shadow=true]{rounded}
+\setbeamerfont{frametitle}{size=\LARGE}
+\setbeamerfont{framesubtitle}{size=\large}
+%\setbeamerfont{framesubtitle}{size=\normalsize}
+\setbeamercolor{block title}{use=structure,fg=white,bg=structure.fg!75!black}
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!10!bg}
+
+\beamertemplatenavigationsymbolsempty
+
+\addtobeamertemplate{navigation symbols}{}{ \hspace{1em}    \usebeamerfont{footline}%
+	\insertframenumber / \inserttotalframenumber }
+
+\usefonttheme[onlymath]{serif}
+\setbeamertemplate{footline}[page number]{}
+\setbeamertemplate{navigation symbols}{}
+
+\usetheme{default}
+\usecolortheme{orchid}
+%\useinnertheme{circles}
+
+
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{theorems}[numbered]
+\newtheorem{proposition}{Proposition}
+%\newtheorem{proposition}{Proposition}
+%\graphicspath{ {./images/} }
+
+\usepackage{tikz}
+\usepackage{forest}
+\forestset{qtree/.style={for tree={parent anchor=south, child anchor=north,align=center,inner sep=0pt}}}
+
+
+%%%%% end - beamer %%%%%
