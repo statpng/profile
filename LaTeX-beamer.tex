@@ -72,4 +72,21 @@
 \forestset{qtree/.style={for tree={parent anchor=south, child anchor=north,align=center,inner sep=0pt}}}
 
 
+
+\setbeamerfont{footnote}{size=\tiny}
+\addtobeamertemplate{footnote}{\hskip -2em}{}
+\newcommand\Footnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{$\aleph$}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
+
 %%%%% end - beamer %%%%%
