@@ -4,7 +4,8 @@
 - Download "dropbox", "snap", "karabiner", "sublime text", "magnet"
 - In snap, the finder application itself lives in "/System/Library/CoreServices"
 - Go to Desktop&Dock - Hot Corners - Set "TopRight as Desktop"
-
+- Set:  Finder's setting - (1)General - Dropbox; (2)adv. - search the current folder
+- 
 
 
 # 추천 프로그램
