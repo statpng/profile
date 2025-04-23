@@ -2,6 +2,7 @@
 - spotlight - turn off "siri suggestions"
 - keyboard - turn on "Use F1, F2, etc. keys as standard function keys"
 - Download "dropbox", "snap", "karabiner", "sublime text", "magnet"
+- In snap, the finder application itself lives in "/System/Library/CoreServices"
 - Go to Desktop&Dock - Hot Corners - Set "TopRight as Desktop"
 
 
