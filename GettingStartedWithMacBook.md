@@ -1,3 +1,10 @@
+# 맥북 초기 셋팅
+- spotlight - turn off "siri suggestions"
+- keyboard - turn on "Use F1, F2, etc. keys as standard function keys"
+- Download "dropbox", "snap", "karabiner", "sublime text", "magnet"
+
+
+
 # 추천 프로그램
 
 ## Useful 맥북응용프로그램
