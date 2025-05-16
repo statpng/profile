@@ -5,7 +5,12 @@
 - In snap, the finder application itself lives in "/System/Library/CoreServices"
 - Go to Desktop&Dock - Hot Corners - Set "TopRight as Desktop"
 - Set:  Finder's setting - (1)General - Dropbox; (2)adv. - search the current folder
-- 
+- Set: caps-lock to return and right command to change input source in Karabiner & System Settings
+- In Keyboard in System Settings, key repeat rate and delay until rate as follow:
+<img width="827" alt="image" src="https://github.com/user-attachments/assets/b9ebafdf-54d7-4b7b-9b4c-39e20ceae690" />
+
+
+
 
 
 # 추천 프로그램
