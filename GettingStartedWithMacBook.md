@@ -10,6 +10,10 @@
 <img width="827" alt="image" src="https://github.com/user-attachments/assets/b9ebafdf-54d7-4b7b-9b4c-39e20ceae690" />
 
 
+- Set: Tab to Click in System Settings
+![Uploading image.png…]()
+
+
 
 
 
