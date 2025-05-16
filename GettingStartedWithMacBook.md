@@ -11,7 +11,8 @@
 
 
 - Set: Tab to Click in System Settings
-![Uploading image.png…]()
+<img width="783" alt="image" src="https://github.com/user-attachments/assets/0bf52a71-c413-4d6f-87ac-5f1f8ee579c4" />
+
 
 
 
