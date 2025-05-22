@@ -14,6 +14,9 @@
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/0bf52a71-c413-4d6f-87ac-5f1f8ee579c4" />
 
 
+- In Keyboard - Input sources, set as follows
+<img width="827" alt="image" src="https://github.com/user-attachments/assets/62070bd0-8b58-436f-b68f-b690fa42b303" />
+
 
 
 
