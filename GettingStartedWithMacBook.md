@@ -17,6 +17,10 @@
 - In Keyboard - Input sources, set as follows
 <img width="827" alt="image" src="https://github.com/user-attachments/assets/62070bd0-8b58-436f-b68f-b690fa42b303" />
 
+- Turn off the shortcuts opening mission control or Application windows when pressing control+up or +down
+<img width="827" alt="image" src="https://github.com/user-attachments/assets/0100cecf-0ba1-45b0-9034-1aa8f9782173" />
+
+
 
 
 
