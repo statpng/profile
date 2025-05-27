@@ -1,79 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>이변량 분포 시각화 선택</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f2f5;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-        .container {
-            background-color: #ffffff;
-            padding: 30px 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            width: 90%;
-        }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            font-size: 2em;
-        }
-        p {
-            font-size: 1.1em;
-            margin-bottom: 30px;
-            color: #555;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 15px 0;
-        }
-        a.plot-link {
-            display: block;
-            color: white;
-            padding: 15px 20px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 1.2em;
-            font-weight: bold;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .plot-description {
-            font-size: 0.85em;
-            font-weight: normal;
-            color: #f0f0f0; /* 약간 어두운 배경에 잘 보이도록 밝은 색 */
-            margin-top: 8px;
-            opacity: 0.9;
-        }
-        .link-discrete { background-color: #27ae60; } /* Green */
-        .link-discrete:hover { background-color: #229954; transform: translateY(-2px); }
-
-        .link-continuous { background-color: #2980b9; } /* Blue */
-        .link-continuous:hover { background-color: #2471a3; transform: translateY(-2px); }
-    </style>
-</head>
 <body>
     <div class="container">
         <h1>이변량 확률분포 시각화</h1>
         <p>아래에서 보고 싶은 시각화 유형을 선택하세요.</p>
         <ul>
             <li>
-                <a href="continuous_bivariate_surface_plot.html" class="plot-link link-discrete">
+                <a href="discrete_bivariate_plot.html" class="plot-link link-discrete">
                     이산형 이변량 분포 (3D 막대 차트)
                     <div class="plot-description">두 주사위 눈의 합(W)과 곱(U)의 결합 분포 (경우의 수)</div>
                 </a>
