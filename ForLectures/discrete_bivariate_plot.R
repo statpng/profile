@@ -109,3 +109,40 @@ print(fig)
 file_name_continuous <- "discrete_bivariate_plot.html"
 saveWidget(widget = fig, file = file_name_continuous, selfcontained = TRUE)
 message(paste("대화형 표면도가 다음 파일로 저장되었습니다:", file_name_continuous))
+
+
+
+
+
+
+
+
+
+
+
+
+png.bar3d <- function(counts_matrix){
+  
+  # Define a function to add 3D bars
+  add_3Dbar <- function(p, x,y,z, width=0.4) {
+    w <- width
+    add_trace(p, type="mesh3d",
+              x = c(x-w, x-w, x+w, x+w, x-w, x-w, x+w, x+w),
+              y = c(y-w, y+w, y+w, y-w, y-w, y+w, y+w, y-w),
+              z = c(0, 0, 0, 0, z, z, z, z),
+              i = c(7, 0, 0, 0, 4, 4, 2, 6, 4, 0, 3, 7),
+              j = c(3, 4, 1, 2, 5, 6, 5, 5, 0, 1, 2, 2),
+              k = c(0, 7, 2, 3, 6, 7, 1, 2, 5, 5, 7, 6),
+              facecolor = rep(toRGB(viridisLite::inferno(6)), each = 2)) 
+  }
+  
+  # Draw the 3D histogram
+  fig <- plot_ly()
+  for (k1 in 1:nrow(z_mtx)) {
+    for (k2 in 1:ncol(z_mtx)) {
+      fig <- fig %>% add_3Dbar(k1,k2,z_mtx[k1,k2])
+    }
+  }
+
+  fig
+}
