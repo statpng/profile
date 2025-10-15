@@ -123,6 +123,40 @@
 
 
 
+
+### Zotero
+- Zotero 환경설정
+
+<img width="797" height="816" alt="image" src="https://github.com/user-attachments/assets/cd57fbf9-10e6-4e3a-ac97-4bb2e280a597" />
+
+<img width="797" height="909" alt="image" src="https://github.com/user-attachments/assets/4c8f7e06-3e14-415f-bccb-50cc27284103" />
+
+<img width="797" height="911" alt="image" src="https://github.com/user-attachments/assets/5f3075bc-ccfd-406f-8d4c-8e37b03ddcbf" />
+
+<img width="797" height="701" alt="image" src="https://github.com/user-attachments/assets/18610a49-2575-44cd-a746-2698c1cbb563" />
+
+<img width="797" height="701" alt="image" src="https://github.com/user-attachments/assets/dab51fef-9416-4409-8597-5e78ec6998d5" />
+
+
+- zutilo 단축키 설정
+  
+<img width="1058" height="653" alt="image" src="https://github.com/user-attachments/assets/2bc2fd59-a922-48ba-ac79-b4ceb92d42ba" />
+
+<img width="1058" height="653" alt="image" src="https://github.com/user-attachments/assets/2edbc88c-ce48-4c8a-81fd-31c0dbbb1be7" />
+
+- ZotFile 환경설정
+
+<img width="727" height="793" alt="image" src="https://github.com/user-attachments/assets/e542c605-165b-4949-a83c-23792f43ee85" />
+
+<img width="727" height="793" alt="image" src="https://github.com/user-attachments/assets/2ff362e4-004f-4a71-b0e6-86194958ba8f" />
+
+<img width="727" height="793" alt="image" src="https://github.com/user-attachments/assets/e0ef47ff-4d36-4f28-8c83-36b7ff3c62af" />
+
+<img width="727" height="793" alt="image" src="https://github.com/user-attachments/assets/72ff724d-f007-4904-b502-22c4d82c7a6b" />
+
+
+
+
 # Q&A
 
 1. "아래한글" 프로그램 사용 가능한지?
