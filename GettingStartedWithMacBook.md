@@ -78,6 +78,7 @@
 - “Cmd + Ctrl + A”: Make alias (바로가기 생성)
 - “Cmd + Opt + C”: 파일 경로 복사
 - “Cmd + Shift + G”: 경로 이동
+- "Cmd + Shift + .": 숨겨진 파일들 보기
 - Finder 내 이동 관련 단축키 적극 사용 권장
     - Document: “Cmd+Shift+O”
     - Downloads: “Cmd+Opt+L”
